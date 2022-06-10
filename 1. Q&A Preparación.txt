@@ -1,0 +1,77 @@
+1. Qué es internet
+R: Es una red diseñada por muchas redes que tiene coomo función
+   el intercambio de información.
+
+2. Qué es una dirección IP
+R: Es la dirección pública o personal de un dispositivo. Es el "nombre" dado
+   a un dispositivo por el cual un servidor identifica a los dispositivos. Las
+   IP's se componen de 4 números de 0 hasta 255 separados por punto (.)
+
+3. Qué es un dominio
+R: Es el alias de una IP para que sea fácil acceder. 
+
+4. Qué es un DNS
+R: 
+
+5. Qué es una red
+R: Es el ciberespacio por donde se mueve la data a través de Internet.
+
+6. Qué es WWW
+R: Es el servicio que se usa en internet para compartir doct con un link de tipo
+   HTML que respondan y/o respeten el protocolo HTTP 
+
+7. Qué tecnologías usa WWW
+R: HTML y HTTP
+
+8. Qué es HTML y para que sirve
+R: En un lenguaje de escritura que permite crear archivo planos con link
+   a otros archivos
+
+9. Qué es HTTP y para qué sirve
+R: Es el protocolo que permite el intercambio de archivos html
+
+10. Qué es un protocolo
+R: Son condiciones que definen la estructura y reglas de los archivos que se
+   comparten a través de WWW
+
+11. Qué es y de que se encarga un Servidor Web
+R: Es un programa que se encarga de recibir y responder mensajes HTTP
+
+12. Qué son y para qué sirven los lenaguajes de programación
+R: Es el lenguaje usado para darle órdenes específicas a las máquinas
+
+13. Qué es código
+R: Son las órdenes dadas a una máquina través de un lenguaje que ella entienda 
+   para correr programas 
+
+14. A qué hace referencia el Front-End
+R: Al desarrollo más externo de una app-web, página, etc; es la parte que se va 
+   a "comunicar" directamente con un usuario. Este se refiere a HTML, CSS y JS
+
+15. A qué hace referencia el Back-End
+R: A la parte del desarrollo que trabaja directamente trayendo y llevando data
+   desde y hacia los servidores, ejecutando progrmas y permitiendo que todo lo 
+   desarrollado en Front-End sea realmente funcional. Se refiere a JS, Phyton,
+   Ruby, etc.
+
+16. Cuáles son las dos herramientas principales para un desarrollador web
+R: La consola y un editor de texto
+
+17. Por qué los desarrolladores usamos la línea de comandos CLI
+    (Command Line Interface)
+R: Porque hay herrmaientas que no tienen interfaz gráfica y solo funcionan a
+   través de la línea de comandos.
+
+18. Nombra los comandos más comunmente usados de la línea de comandos y para qué
+    sirven
+R: - pwd   : Ver posición actual
+   - cd    : Moverse entre carpetas
+   - ls    : Ver contenido de carpeta
+   - mkdir : Crear carpeta nueva
+   - touch : Crear archivo nuevo vacío
+   - cat   : Ver contenido de un archivo
+   - rm    : Eliminar archivos y carpetas
+   - cp    : Copiar archivos y carpetas
+   - clear : Eliminar contenido de la consola. Tambien funciona "ctrl + l"
+   - mv    : Sirve para mover archivos y carpetas o cambiarles el nombre
+   - start : Abre en la máquina una carpeta
