@@ -1,0 +1,134 @@
+1. Qué es iun repositorio
+R: Es una carpeta donde se guardan todos los commits (fotos) de un proyecto
+
+2. Cómo se crea un repositorio de git desde la teminal de tu computador
+R: Con el comando 'git init'
+
+3. Con qué comando se crea un commit
+R: git commit -m 
+
+4. Qué comando se utiliza para incluir los cambios realizados
+   en el siguiente commit
+R: git add; puede incluir punto (.) para incluirlos todos o el nombre del archivo
+   específico
+
+5. Cómo consultar el estado actual de tu repositorio,
+   para saber qué archivos han tenido cambios
+R: git status
+
+6. Cómo consultar el historial de commits
+R: git log; para verlo resumindo añadir '--oneline' 
+
+7. Cómo remover un archivo del índice
+R: git reset HEAD
+
+8. Cómo consultar los cambios que se han hecho a los archivos que
+   aún no están en el índice
+R: git diff
+
+9. Cómo se configura el nombre de usuario y el email que aparecerán
+   como el autor de un commit
+R: git config --global user.name y git config --global user.email
+
+10. Cómo deshacer los cambios realizados en un archivo específico
+R: git checkout --[nombre archivo]
+
+11. Cómo consultar los cambios que hubo en cada archivo para un commit específico
+R: git show [id commit]
+
+12. Qué es recomendable incluir al inicio de un mensaje de commit
+R: Un verbo
+
+13. Bajo que criterio se recomienda agrupar los cambios que se van a incluir
+    en un commit
+R: Por funcionalidades; agrupar aquellos cambios que están relacionados, así 
+   lograr que el commit quedé lo más claro y específico posible
+
+14. Qué es una rama en git
+R: Son justamente eso, ramas, que naces por lo general de la línea central de
+   desarrollo con el propósito de hacer cambios (pruebas) sin afectar la rama
+   pricipal
+
+15. En qué rama de git se debe guarfar la copia principal de tu código
+R: master
+
+16. Para qué se crean ramas diferentes al master
+R: Se crea con el propósito de hacer cambios (pruebas) sin afectar la rama
+   pricipal
+
+17. Cómo listar las ramas de un repositorio de git
+R: git branch
+
+18. Qué comando te permite crear una nueva rama de git
+R: git branch [nombre nueva rama] 
+
+19. Qué comando permite ubicarse en una rama específica
+R: git checkout [nombre de la rama]
+
+20. Qué comando permite crear una nueva rama de git y ubicarnos en ella
+R: git checkout -b [nombre de la rama]
+
+21. Cómo se cambia el nombre de una rama
+R: git branch -m [nuevo nombre]
+
+22. Cómo borrar una rama de git
+R: git branch -d (Si se usa "-D" se elimina incluso si hay cosas pendientes en
+   esa rama
+
+23. Qué es el HEAD
+R: Es el archivo que me dice sobre que rama estoy trabajando y sobre qué rama 
+   voy a guardar mis commits
+
+24. Cómo se integran los cambios de otra rama en la rama en la que se está ubicado,
+    creando un commit posterior al último commit de la rama actual
+R: Estando ubicado en la rama a la cual se quiere integrar, se usa git merge [nom-
+   bre de la rama]
+
+25. Explica qué se debe hacer durante el proceso de integración de dos ramas que
+    tienen commits que incluyen cambios a los mismos archivos.
+R: Resolver los conflictos.
+
+26. Cuáles son los posibles estados de un archivo d eun repositorio de git
+R: Untracked, unmodified, modified, staged
+
+27. En qué archivo se debe escribir el nombre de los archivos que queremos
+    omitir en el control de versiones de git
+R: .gitignore
+
+28. Explica qué es un repositorio remoto
+R: Es un repositorio en la web, que puede ser compartido por equipos de trabajo
+   al cual se le pueden llevar y traer cambio desde y hacia el repositorio local
+
+29. Para qué sirve el comando git clone
+R: Para traer un repositorio remoto a la máquina y trabajarlo localmente
+
+30. Para qué sirve el comando git remote
+R: Para ver a que repositorios remoto está conectado mi repositorio local
+
+31. Con qué comando de git se consulta la url de un repositorio remoto
+R: git remote -v
+
+32. Con qué comando de git se actualiza un repositorio remoto
+R: git push; se puede utilizar el "-u" para que ya quede sincronizado por defecto
+
+33. Con qué comando se descargan los commits y nuevas ramas de un repositorio
+    remoto
+R: git fetch [nombre repositorio] y luego git pull
+
+34. Para qué sirve el comando git fetch origin
+R: Consultar el repositorio local de acuerdo a lo que hay en el remoto
+
+35. Para qué sirve el comando git reset --hard origin/[nombre de la rama]
+R: Reemplaza rama local por rama remota
+
+36. Para qué sirve el comando git push --force
+R: Reemplaza rama remota por rama local
+
+37. Para qué sirve el comando git rebase origin/[nombre de la rama]
+R: permite rebasar una rama remota sobre una rama local. Este comando mueve
+   los commits que se hayan hecho localmente después de los commits que estén
+   en master.
+
+38. Los commits y las ramas de git se actualizan automáticamente al hacer
+    cambios en los archivos de tu proyecto
+R: No, hay que hacerlo de forma manuel con los respectivos comandos
