@@ -1,5 +1,26 @@
-.bk-ground {
-    width: 1330px;   
-    height: 1000px;
-    background-color: rgb(250, 123, 123);
+h1 {
+    text-align: center;
+    color: white;
+}
+#bg1 {
+    width: 100%;
+    height: 50px;
+    background-color: #2f2f2f;
+}
+#bg2 {
+    width: 100%;
+    height: 1700px;
+    background-image: url(./Bhagavan.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+#bg3 {
+    width: 100%;
+    height: 200px;
+    background-image: url(./Om-sinfondo.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-top: 35px;
 }
