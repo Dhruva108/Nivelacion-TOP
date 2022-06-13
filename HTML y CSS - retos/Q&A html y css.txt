@@ -1,0 +1,94 @@
+1. Cuales son las 3 formas de aplicar estilos al HTML con CSS
+R: - Dentro del html con el atributo "style" (mala práctica)
+   - Dentro del html en el <head> creando una etiqueta "style" (mala práctica)
+   - En un archivo css aparte y linkeándolo desde el html
+
+2. Cómo se define la dirección en la que se muestran los elementos en un flexbox
+R: 
+
+3. Cómo se selecciona un elemento por su clase para apliarle estilos CSS
+R: Primero crear la clase en html y luego desde css con punto (.) y el nombre
+   de la clase se le dan los estilos
+
+4. Cómo se selecciona un elemento por su id para aplicarle estilos CSS
+R: Primero crear la clase en html y luego desde css con numeral (#) y el nombre
+   de la clase se le dan los estilos
+
+5. Qué etiqueta de HTML se usa para crear una tabla
+R: <table> 
+
+6. Qué propiedad de CSS permite definir los borde de una tabla
+R: border 
+
+7. Para qué se utilizan los formularios HTML
+R: Para capturar info de usuarios
+
+8. Cuále sos las etiquetas HTML principales para crear campos de un formulario
+R: - <form>
+   - <input>
+   - <label>
+   - <textarea>
+   - <select>
+
+9. Qué atributo es requerido para todos los elementos input de un formulario
+R: type
+
+10. Qué etiqueta de HTML crea una lista de selección única
+R: <Select>
+
+11. Qué etiqueta de HTML crea un campo multilínea de texto
+R: <textarea>
+
+12. Explica con tus propias palabras qué es y para qué sirve el modelo de caja
+R: Es la manera en que se muestran los elementos en una página y sirve para
+   ubicar de fomra concreta dichos elementos en el espacio de la página.
+
+13. Cuáles son los 4 elementos del modelo de caja
+R: - padding - content - border - margin 
+
+14. Cuáles son las propiedades CSS que se utilizan para definir el fondo de
+    un elemento HTML
+R: Background-color
+   Background-position
+   Background-image
+   Background-repeat
+
+15. Qué propiedad de CSS sirve para definir en una sola línea varias propiedades
+    del fondo de un elemento HTML
+R: background: 'color' 'repeat' 'center' 'url(./image)'
+
+16. Explica con tus propias palabras para qué sirve la propiedad CSS position
+R: Para ubicar elementos html en una página
+
+17. Cuáles son los posibles valores que puede recibir la propiedad CSS position
+    y que posicion define cada uno 
+R: - relative: se posiciona de acuerdo a su posición original
+   - absolute: se posiciona según su ancestro "relative" más cercano; en caso de
+   no haber se posiciona según el borde del navegador
+   - fixed: se posiciciona donde uno le diga y nunca se mueve
+
+18. Para qué se utiliza la propiedad CSS box-shadow
+R: Para darle sombra a una caja
+
+19. Para qué se utiliza la propiedad CSS text-shadow
+R: Para darle sombra a un texto
+
+20. Explica cómo se aplica una transición de colores a un elemento HTML
+    utilizando CSS
+R: 
+
+21. Explica qué son y para qué sirven los media queries
+R: Son la medidas que permiten a una página web ser versatil de acuerdo al tamaño
+   del dispositivo que esté visitando dicha página y se ajustan desde css con la
+   regla "@media"
+
+22. Qué significa que una página es adaptatva o "responsive", y para que sirve
+    el diseño adaptativo
+R: Quiere decir que se adapta al tamaño de la pantalla que esté visitando dicha
+   página y sirve para que al visitar la página desde diferentw dispositivos
+   con diferentes medidas en su pantalla, la informaión se siga viendo linda 
+   y no se deforme
+
+23. Qué significa un diseño ques es "mobile first"
+R: Que la página se crea primeramente con medidas para celular y las media queries
+   se van adaptando según la pantalla va creciendo
