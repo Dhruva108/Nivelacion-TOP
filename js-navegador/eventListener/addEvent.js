@@ -10,17 +10,8 @@ $addBox.addEventListener('click', function(){
     $squares.appendChild($div)
 })
 
-$squares.addEventListener('mouseenter', element => {
+$squares.addEventListener('mousemove', element => {
     if (element.target.classList.contains('square')){
-        element.target.parentNode.removeChild(element.target.)
+        element.target.parentNode.removeChild(element.target)
     }
 })
-
-
-
-
-
-
-
-
-
