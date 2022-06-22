@@ -1,21 +1,21 @@
+
+
 const $addBox = document.querySelector('#append')
+
+const $squares = document.querySelector(".squares")
 
 $addBox.addEventListener('click', function(){
     const $div = document.createElement('div')
     $div.classList.add('square')
-
-    const $squares = document.querySelector('.squares')
     $squares.appendChild($div)
-
-    const $dltBox = document.querySelectorAll(".square")
-    const $dlt = $dltBox
-
-    $dltBox.forEach(function($dlt){
-        $dlt.addEventListener('mouseenter', function(){
-            $dlt.parentNode.removeChild($dlt)
-        })
-    })
 })
+
+$squares.addEventListener('mouseenter', element => {
+    if (element.target.classList.contains('square')){
+        element.target.parentNode.removeChild(element.target.)
+    }
+})
+
 
 
 
